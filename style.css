@@ -1,0 +1,37 @@
+body {
+    background-color: #DECBB7 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.cat {
+    background-color: #8F857D;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    flex: 1;
+}
+
+@media (min-width : 960px) {
+    .cats {
+        display: flex;
+    }
+
+}
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+button {
+    padding: 1em;
+    border: 2px solid;
+    border-radius: 1em;
+}
+
+input {
+    padding: 1em;
+    border: 2px solid;
+    border-radius: 1em;
+}
