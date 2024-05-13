@@ -12,7 +12,7 @@ body {
     flex: 1;
 }
 
-@media (max-width : 960px) {
+@media (min-width : 1200px) {
     .cats {
         display: flex;
     }
