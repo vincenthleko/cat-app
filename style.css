@@ -1,6 +1,6 @@
 body {
-    background-color: #DECBB7 ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: #DECBB7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .cat {
@@ -12,11 +12,10 @@ body {
     flex: 1;
 }
 
-@media (min-width : 960px) {
+@media (max-width : 960px) {
     .cats {
         display: flex;
     }
-
 }
 
 fieldset {
